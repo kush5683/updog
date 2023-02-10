@@ -3,3 +3,4 @@ flask
 flask_httpauth
 werkzeug
 pyopenssl
+cryptography>=39.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
